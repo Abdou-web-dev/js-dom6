@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+    font-family: Poiret One;
+    background-color: #f8f9fa;
+}
+
+.linear-gradient1 {
+    background: linear-gradient(#544a7d, #ffd452);
+}
+
+.linear-gradient1-variant {
+    background: linear-gradient(#544a7d, #ffd452, white, grey, white);
+}
+
+/* 2nd row */
+.linear-gradient2 {
+    background: linear-gradient(to top, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100%);
+}
+
+.linear-gradient3 {
+    background: linear-gradient(to top, #dbdcd7 0%, #dddcd7 24%, #e2c9cc 30%, #e7627d 46%, #b8235a 59%, #801357 71%, #3d1635 84%, #1c1a27 100%);
+}
+
+.linear-gradient4 {
+    background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+}
+
+
+.linear-gradient5 {
+    background: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.linear-gradient6 {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+/* 3row row */
+.linear-gradient7 {
+    background: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+
+.linear-gradient8 {
+    background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+}
+
+.linear-gradient9 {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%), radial-gradient(at top center, rgba(255, 255, 255, 0.40) 0%, rgba(0, 0, 0, 0.40) 120%) #989898;
+    background-blend-mode: multiply, multiply;
+}
+
+.linear-gradient10 {
+    background: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.linear-gradient11 {
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+}
+
+.linear-gradient12 {
+    background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+}
+
+.linear-gradient13 {
+    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+
+.linear-gradient14 {
+    background-image: linear-gradient(to top, #e6b980 0%, #eacda3 100%);
+}
+
+.linear-gradient15 {
+    background-image: linear-gradient(to right, #c1c161 0%, #c1c161 0%, #d4d4b1 100%);
+}
+
+.linear-gradient16 {
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    /* color: #f8b1958a; */
+    /* outline-width: ; */
+}
+
+
+
+
+
+
+
+section.section1 div div div {
+    /* the columns */
+    padding: 40px;
+}
+
+.row1,
+.row2,
+.row3,
+.row4 {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* section.section1 div div div span:nth-child(1) {
+    position: relative;
+    bottom: 50;
+    right: 40;
+}
+
+section.section1 div div div span:nth-child(2) {
+    margin-left: -50;
+    position: relative;
+    font-size: 30;
+}
+
+section.section1 div div div span:nth-child(3) {
+    position: relative;
+    top: 50;
+    right: 20;
+} */
+
+.img-fluid {
+    max-width: 100%;
+    height: auto
+}
+
+/* Bootstrap 5 colors 
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000; */
+
+/* Shake */
+
+/*creating the shake animation*/
+/* Y axis */
+
+
+span.shake:hover span.TextShake {
+    animation: shake 0.8s;
+    font-size: 60px;
+    /* color: #e9ecef; */
+}
+
+@keyframes shake {
+    0% {
+        transform: translateY(0)
+    }
+
+    25% {
+        transform: translateY(20px);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes shake2 {
+    0% {
+        transform: translateY(0)
+    }
+
+    25% {
+        transform: translateY(5px);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+/* over X axis */
+@keyframes shake3 { 
+    0% {
+        transform: translateX(0)
+    }
+
+    25% {
+        transform: translateX(5px);
+    }
+
+    50% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+
+
+.btn-transf-click {
+    background-color: white;
+    color: #0d6efd;
+}
+
+.btn-transf-click2 {
+    background-color: #0dcaf0;
+    color: white;
+}
+
+.btn-transf-click3 {
+    background-color: white;
+    color: #198754;
+}
+
+

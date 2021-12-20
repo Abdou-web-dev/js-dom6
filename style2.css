@@ -1,0 +1,134 @@
+  .ellipsis img.img1 {
+      
+      border-radius: 50%;
+      display: inline-block;
+      -webkit-animation-name: jumpingDots;
+      animation-name: jumpingDots;
+      -webkit-animation-duration: 1.4s;
+      animation-duration: 1.4s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+  }
+
+  .ellipsis img.img2 {
+      
+      /* border-radius: 50%; */
+      display: inline-block;
+      -webkit-animation-name: jumpingDots;
+      animation-name: jumpingDots;
+      -webkit-animation-duration: 1.4s;
+      animation-duration: 1.4s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-delay: .4s;
+      animation-delay: .4s;
+  }
+
+  .ellipsis img.img3 {
+      
+      border-radius: 50%;
+      display: inline-block;
+      -webkit-animation-name: jumpingDots;
+      animation-name: jumpingDots;
+      -webkit-animation-duration: 1.4s;
+      animation-duration: 1.4s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+      -webkit-animation-delay: .8s;
+      animation-delay: .8s;
+  }
+
+  @-webkit-keyframes jumpingDots {
+      20% {
+          -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+      }
+
+      50% {
+          -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+      }
+  }
+
+  @keyframes jumpingDots {
+      20% {
+          -webkit-transform: translateY(0px);
+          transform: translateY(0px);
+      }
+
+      50% {
+          -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+      }
+  }
+
+
+
+
+
+
+
+.rotate{
+    animation-name: Rotation;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+  @keyframes Rotation {
+    0% {
+        transform:rotate3d(0, 5, 10, 0);
+    }
+    20% {
+        transform:rotate3d(10, 15, 20, .2turn);
+    }
+
+    40% {
+      transform:  rotate3d(25, 30, 35, .4turn);
+    }
+    60% {
+        transform:rotate3d(40, 45, 50, .6turn);
+    }
+    80% {
+        transform:rotate3d(55, 60, 65, .8turn);
+    }
+    100% {
+        transform:rotate3d(70, 75, 80, 1turn);
+    }
+  }
+
+  .info-msg:hover{
+      filter: invert(.5);
+  }
+
+
+  /* dark overlay */
+.overlay-black {
+    position: relative;
+    /* background: white; */
+    display: block;
+  }
+  
+  .overlay-black::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0;
+    transition: .5s ease;
+  }
+  
+  .overlay-black:hover::before {
+    opacity: 0.55;
+  }
+ 
